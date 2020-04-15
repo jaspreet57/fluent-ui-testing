@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropDownWrapper should match snapshots 1`] = `
+<StyledWithResponsiveMode
+  ariaLabel="Required dropdown example"
+  onChange={[MockFunction]}
+  options={
+    Array [
+      Object {
+        "key": "A",
+        "text": "Option a",
+        "title": "I am option a.",
+      },
+      Object {
+        "key": "B",
+        "text": "Option b",
+      },
+      Object {
+        "disabled": true,
+        "key": "C",
+        "text": "Option c",
+      },
+      Object {
+        "key": "D",
+        "text": "Option d",
+      },
+      Object {
+        "key": "E",
+        "text": "Option e",
+      },
+    ]
+  }
+  placeholder="Required with no label"
+  required={true}
+  styles={
+    Object {
+      "dropdown": Object {
+        "width": 300,
+      },
+    }
+  }
+/>
+`;
